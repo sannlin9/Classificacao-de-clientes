@@ -36,7 +36,7 @@ def load_data(url):
     df = pd.read_csv(url)
     return df
 
-df= load_data(r"https://raw.githubusercontent.com/sannlin9/Classificacao-de-clientes/main/online_shoppers_intention.csv?token=GHSAT0AAAAAACABPH7VEILAZPSYZMEQWTJYZCICZXA")
+df= load_data(r'https://raw.githubusercontent.com/sannlin9/Classificacao-de-clientes/main/input/online_shoppers_intention.csv?token=GHSAT0AAAAAACABPH7VN5ZKXV6L73BBGQDKZCIHRAA')
 
 
 progress_text = "Gerando o agrupamento, por favor aguarde..."
@@ -99,6 +99,18 @@ st.pyplot(fig=plt)
 sns.countplot(data=df, x='Month', hue='grupo')
 st.pyplot(fig=plt)
 
+'''
+# Quanto nossos grupos compram.
+'''
+sns.countplot(data=df, x='Revenue', hue='grupo')
+st.pyplot(fig=plt)
+
+
+'''
+# Quanto nossos grupos compram.
+'''
+sns.barplot(data=df, x='grupo', y='BounceRates', hue='Revenue')
+st.pyplot(fig=plt)
 
 
 

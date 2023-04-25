@@ -27,7 +27,7 @@ def load_data(url):
     df = pd.read_csv(url)
     return df
 
-df= load_data(r"https://raw.githubusercontent.com/sannlin9/Classificacao-de-clientes/main/online_shoppers_intention.csv?token=GHSAT0AAAAAACABPH7VEILAZPSYZMEQWTJYZCICZXA")
+df= load_data(r'https://raw.githubusercontent.com/sannlin9/Classificacao-de-clientes/main/input/online_shoppers_intention.csv?token=GHSAT0AAAAAACABPH7VN5ZKXV6L73BBGQDKZCIHRAA')
 
 #Titulo da pagina
 
