@@ -1,5 +1,7 @@
 # Clusters - Classificação de clientes de e-commerce.
 
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sannlin9/Classificacao-de-clientes?style=for-the-badge">
+
 
 
 *Este é um projeto idealizado durante o curso de ciencia de dados | EBAC.*
@@ -38,4 +40,33 @@ Por este motivo, o escopo desta análise estará fechado as variáveis referente
 |Revenue                 | Indica se houve compra ou não |
 
 \* variávels calculadas pelo google analytics
+
+## Aplicativo web - Streamlit.
+
+////
+///
+
+## Desenvolvimento do projeto.
+
+Toda a documentação do desenvolvimento deste projeto esta disponibilizada em [Neste notebook](https://github.com/sannlin9/Classificacao-de-clientes/blob/main/Projeto%20clusteriza%C3%A7%C3%A3o.ipynb).
+
+## Ajuda
+
+É possível que você encontre lentidão na aplicação e durante o processamento dos dados, este aplicativo utiliza o Free Web Services da plataforma render e por esta razão há limitações quanto a banda utilizada. 
+
+## Autores
+
+Sandra Lin Costa [@SandraLin](https://www.linkedin.com/in/sandra-lin-costa/)
+
+## Histórico de versões.
+
+* 0.3
+  * Deploy no render e modificações no readme.
+* 0.2
+	* Deploy no streamlit community cloud.
+* 0.1
+    * Primeira versão.
+
+## Licença de uso
+Livre
 
