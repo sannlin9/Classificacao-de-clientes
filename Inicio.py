@@ -12,6 +12,8 @@ warnings.filterwarnings('ignore')
 custom_params = {"axes.spines.right": False, "axes.spines.top": False}
 sns.set_palette(sns.color_palette("pastel"))
 
+st.sidebar.success("Selecione uma pagina para navegar.")
+
 st.set_page_config (layout= 'wide', 
                     page_title ='Classicação de clientes',
                     initial_sidebar_state="expanded",
@@ -27,11 +29,18 @@ st.title('Classificação de clientes.')
 
 
 '''
-    Neste projeto, vamos analisar uma base de dados chamada "Online Shoppers Purchase Intention" de Sakar et al. Essa base contém informações sobre 12.330 sessões de acesso a páginas de um site, 
-    cada sessão de um usuário diferente em um período de 12 meses. O objetivo é entender se o design da página afeta a propensão de compra do cliente, dependendo de como ele navega pelo site. 
+    Neste projeto, vamos analisar uma base de dados chamada "Online Shoppers Purchase Intention" de Sakar et al. 
+    
+    
+    Essa base contém informações sobre 12.330 sessões de acesso a páginas de um site, cada sessão de um usuário diferente em um período de 12 meses. O objetivo é entender se o design da página afeta a propensão de compra do cliente, dependendo de como ele navega pelo site. 
     Para isso, vamos agrupar os clientes de acordo com seu comportamento de navegação entre páginas administrativas, informativas e de produtos. 
+    
+    
     As variáveis que usaremos são a quantidade e o tempo de acesso por tipo de página, bem como informações de temporalidade, como a época do ano. 
+    
+    
     Em resumo, vamos analisar como o comportamento de navegação dos clientes está relacionado à propensão de compra e como isso pode ser influenciado pelo design da página.
+  
     
 |Variavel                |Descrição          | 
 |------------------------|:-------------------| 
