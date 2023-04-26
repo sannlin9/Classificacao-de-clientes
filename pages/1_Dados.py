@@ -77,24 +77,14 @@ plot_data('scatterplot','Administrative', 'Administrative_Duration', 'Revenue', 
 '''
 # Visitas em paginas informativas.
 '''
-sns.scatterplot(data=df, x='Informational', y='Informational_Duration', hue='Revenue', alpha=0.7)
-plt.xlabel('Quantidade de paginas informativas visitadas')
-plt.ylabel('Duração das visitas')
-st.pyplot(fig=plt)
+plot_data('scatterplot', 'Informational', 'Informational_Duration', 'Revenue', 'Quantidade de paginas informativas visitadas', 'Duração das visitas')
 
 '''
 # Visitas em paginas de produtos.
 '''
-sns.scatterplot(data=df, x='ProductRelated', y='ProductRelated_Duration', hue='Revenue',alpha=0.7)
-plt.xlabel('Quantidade de paginas de produto visitadas')
-plt.ylabel('Duração das visitas')
-st.pyplot(fig=plt)
+plot_data('scatterplot', 'ProductRelated', 'ProductRelated_Duration', 'Revenue', 'Quantidade de paginas de produto visitadas', 'Duração das visitas')
 
 '''
 # Porporção de visitas em finais de semana.
 '''
-ax = sns.countplot(data=df, x='Weekend', hue='Revenue')
-plt.title('Visitas realizadas durante finais de semana')
-plt.xlabel('Fim de semana')
-plt.ylabel('Frequência ')
-st.pyplot(fig=plt)
+plot_data('countplot', 'Weekend', None, 'Revenue', 'Fim de semana', 'Frequência')
