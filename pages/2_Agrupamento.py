@@ -16,6 +16,8 @@ warnings.filterwarnings('ignore')
 custom_params = {"axes.spines.right": False, "axes.spines.top": False}
 sns.set_palette(sns.color_palette("pastel"))
 
+st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
+
 st.set_page_config (layout= 'wide', 
                     page_title ='Classicação de clientes',
                     initial_sidebar_state="expanded",
