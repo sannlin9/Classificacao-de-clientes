@@ -47,7 +47,7 @@ st.image('https://hotsite-cdn.s3.amazonaws.com/wp-content/uploads/2017/08/061247
 
 - Os caçadores adoram promoções especialmente durante a black friday e cyber monday durante o mês de novembro. '''
 st.image('https://static.vecteezy.com/ti/vetor-gratis/p1/1372982-desconto-cacador-on-cyber-segunda-feira-venda-ilustracao-vetor.jpg')
-
+'''
 # Estratégias aplicadas aos grupos.
 
 ## Conclusões quanto ao perfil de consumo.
