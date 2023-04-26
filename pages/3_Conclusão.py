@@ -31,61 +31,61 @@ st.set_page_config (layout= 'wide',
 '''
 # Nomeando os grupos.
 
-## Grupo 1 --> Generosos
+### Grupo 1 --> Generosos
 
-•	O grupo dos Generosos procuram o site de e-commerce durante o mês de Maio, durante este mês acontecem duas datas comemorativas importantes, o Dia das Mães e Dia dos Pais nos estados unidos.
+- O grupo dos Generosos procuram o site de e-commerce durante o mês de Maio, durante este mês acontecem duas datas comemorativas importantes, o Dia das Mães e Dia dos Pais nos estados unidos.
 
-## Grupo 2 --> Cliente fiel
+### Grupo 2 --> Cliente fiel
 
-•	O grupo dos Fiéis sempre compra no nosso e-commerce durante todo o ano.
+- O grupo dos Fiéis sempre compra no nosso e-commerce durante todo o ano.
 
-## Grupo 3 --> Caçadores de descontos
+### Grupo 3 --> Caçadores de descontos
 
-•	Os caçadores adoram promoções especialmente durante a black friday e cyber monday durante o mês de novembro.
+- Os caçadores adoram promoções especialmente durante a black friday e cyber monday durante o mês de novembro.
 
 # Estratégias aplicadas aos grupos.
 
 ## Conclusões quanto ao perfil de consumo.
 
-## Fiéis
+### Fiéis
 
-•	Os consumidores fiéis são a maior parte dos nossos clientes.
+- Os consumidores fiéis são a maior parte dos nossos clientes.
 
-•	Tem o menor bounce rate (taxa de rejeição) entre os grupos.
+- Tem o menor bounce rate (taxa de rejeição) entre os grupos.
 
-## Generosos
-•	Tem taxas de rejeição maiores, pois são mais criteriosos.
+### Generosos
+- Tem taxas de rejeição maiores, pois são mais criteriosos.
 
-## Caçadores
-•	Tem a maior propensão a realizar a compra.
+### Caçadores
+- Tem a maior propensão a realizar a compra.
 
-•	Já sabem o que querem comprar, pois dentre os visitantes que realizam compras tem o maior valor de bounce rate, ou seja clicam no produto que querem e não visitam o restante do site.
+- Já sabem o que querem comprar, pois dentre os visitantes que realizam compras tem o maior valor de bounce rate, ou seja clicam no produto que querem e não visitam o restante do site.
 
 # Ações
 
-## Fiéis:
+### Fiéis:
 
-•	**Programa de fidelidade:** ofereça benefícios exclusivos, descontos e recompensas para os clientes fiéis.
+- *Programa de fidelidade:* ofereça benefícios exclusivos, descontos e recompensas para os clientes fiéis.
 
-•	**Conteúdo personalizado:** forneça conteúdo exclusivo e personalizado para os clientes fiéis, como dicas, guias e informações relevantes relacionadas aos seus interesses.
+- *Conteúdo personalizado:* forneça conteúdo exclusivo e personalizado para os clientes fiéis, como dicas, guias e informações relevantes relacionadas aos seus interesses.
 
-•	**Comunicação frequente:** mantenha contato frequente com os clientes fiéis por meio de e-mails, mensagens de texto, notificações de aplicativos, entre outros.
+- *Comunicação frequente:* mantenha contato frequente com os clientes fiéis por meio de e-mails, mensagens de texto, notificações de aplicativos, entre outros.
 
-## Generosos:
+### Generosos:
 
-•	**Atenção aos detalhes:** preste atenção aos detalhes do produto, incluindo descrição, imagens e informações sobre o uso e manutenção.
+- *Atenção aos detalhes:* preste atenção aos detalhes do produto, incluindo descrição, imagens e informações sobre o uso e manutenção.
 
-•	**Experiência de compra personalizada:** ofereça uma experiência de compra personalizada com base nas preferências e histórico de compras dos clientes generosos.
+- *Experiência de compra personalizada:* ofereça uma experiência de compra personalizada com base nas preferências e histórico de compras dos clientes generosos.
 
-•	**Marketing de influência:** utilize influenciadores para promover seus produtos para os clientes generosos, já que eles são mais criteriosos.
+- *Marketing de influência:* utilize influenciadores para promover seus produtos para os clientes generosos, já que eles são mais criteriosos.
 
-## Caçadores
+### Caçadores
 
-•	**Anúncios direcionados:** utilize anúncios direcionados para apresentar os produtos que os clientes caçadores estão procurando.
+- *Anúncios direcionados:* utilize anúncios direcionados para apresentar os produtos que os clientes caçadores estão procurando.
 
-•	**Descontos exclusivos:** ofereça descontos exclusivos para os produtos que os clientes caçadores já demonstraram interesse.
+- *Descontos exclusivos:* ofereça descontos exclusivos para os produtos que os clientes caçadores já demonstraram interesse.
 
-•	**Facilidade de navegação:** facilite a navegação do site e torne mais fácil para os clientes caçadores encontrar o que estão procurando.
+- *Facilidade de navegação:* facilite a navegação do site e torne mais fácil para os clientes caçadores encontrar o que estão procurando.
 
 '''
 st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
