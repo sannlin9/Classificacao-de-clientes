@@ -40,7 +40,7 @@ Por este motivo, o escopo desta análise estará fechado as variáveis referente
 
 **👈 Você pode navegar pelas paginas deste aplicativo atravez do menu lateral.**
 
-## As variáveis do dataset são descritas abaixo:
+###### As variáveis do dataset são descritas abaixo:
  -------------------------------------------
     
 |Variavel                |Descrição          | 
