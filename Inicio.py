@@ -17,7 +17,7 @@ st.set_page_config (layout= 'wide',
                     initial_sidebar_state="expanded",
                     menu_items={ 
          'Get Help': 'https://www.linkedin.com/in/sandra-lin-costa-894a05174/',
-         'Report a bug': "https://github.com/sannlin9/Streamlit-app/issues",
+         'Report a bug': "https://github.com/sannlin9/Classificacao-de-clientes/issues",
         'About': "# Este aplicativo foi criado como projeto por Sandra Lin Costa!"},
                     page_icon= '👋')
 
@@ -30,7 +30,7 @@ st.title('Classificação de clientes.')
 st.image('https://www.salesforce.com/content/dam/blogs/ca/Blog%20Posts/2021/what-retailers-need-to-know-about-ecommerce-header.png')
 
 '''
-*Este é um projeto idealizado durante o curso de ciencia de dados | EBAC.*
+*Este é um projeto idealizado durante o curso de ciência de dados | EBAC.*
 
 Neste projeto vamos usar a base [online shoppers purchase intention](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset) de Sakar, C.O., Polat, S.O., Katircioglu, M. et al. Neural Comput & Applic (2018). [Web Link](https://doi.org/10.1007/s00521-018-3523-0).
 
@@ -40,9 +40,9 @@ Nosso objetivo é tentar agrupar os clientes conforme seu comportamento de naveg
 
 Por este motivo, o escopo desta análise estará fechado as variáveis referentes a quantidade e tempo de acesso por tipo de página, atributos que falam mais do comportamento de navegação do cliente e de temporalidade como época do ano (informações da data, como a proximidade a uma data especial, fim de semana e o mês).
 
-**👈 Você pode navegar pelas paginas deste aplicativo atravez do menu lateral.**
+**👈 Você pode navegar pelas páginas deste aplicativo através do menu lateral.**
 
-###### As variáveis do dataset são descritas abaixo:
+###### As variáveis do dataset são descritas abaixo:
  -------------------------------------------
     
 |Variavel                |Descrição          | 
