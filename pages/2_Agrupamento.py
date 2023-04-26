@@ -40,12 +40,17 @@ def load_data(url):
 def plot_data(tipo, x, y, hue, xlabel, ylabel):
     fig, ax = plt.subplots(figsize=(8, 6))
     if tipo == 'scatterplot':
-        sns.scatterplot(data=df, x=x, y=y, hue=hue, alpha=0.7, palette="pastel" )
+        sns.scatterplot(data=df, x=x, y=y, hue=hue, alpha=0.7, palette="pastel")
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
         st.pyplot(fig=plt)
     elif tipo == 'countplot':
         ax = sns.countplot(data=df, x=x, hue=hue)
+        plt.xlabel(xlabel)
+        plt.ylabel(ylabel)
+        st.pyplot(fig=plt)
+    elif tipo == 'barplot':
+        ax = sns.barplot(data=df, x=x, y=y, hue=hue)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
         st.pyplot(fig=plt)
@@ -120,8 +125,7 @@ plot_data('countplot', 'Revenue', None, 'grupo', 'Porporção de compra por aces
 '''
 # Quanto nossos grupos compram.
 '''
-sns.barplot(data=df, x='grupo', y='BounceRates', hue='Revenue')
-st.pyplot(fig=plt)
+plot_data('barplot', 'grupo', 'BounceRates', 'Revenue', 'BounceRate x Compra', 'BounceRate')
 
 
 
