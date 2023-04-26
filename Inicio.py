@@ -35,8 +35,6 @@ A base trata de registros de 12.330 sessões de acesso a páginas, cada sessão 
 
 Nosso objetivo é tentar agrupar os clientes conforme seu comportamento de navegação entre páginas administrativas, informativas e de produtos. 
 
-As variáveis estão descritas abaixo (em tradução livre do link indicado).
-
 Por este motivo, o escopo desta análise estará fechado as variáveis referentes a quantidade e tempo de acesso por tipo de página, atributos que falam mais do comportamento de navegação do cliente e de temporalidade como época do ano (informações da data, como a proximidade a uma data especial, fim de semana e o mês).
 
 ## As variáveis do dataset são descritas abaixo:
