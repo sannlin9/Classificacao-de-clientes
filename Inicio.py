@@ -27,11 +27,15 @@ st.title('Classificação de clientes.')
 
 
 '''
-    Neste projeto, vamos analisar uma base de dados chamada "Online Shoppers Purchase Intention" de Sakar et al. 
-    Essa base contém informações sobre 12.330 sessões de acesso a páginas de um site, cada sessão de um usuário diferente em um período de 12 meses. O objetivo é entender se o design da página afeta a propensão de compra do cliente, dependendo de como ele navega pelo site. 
-    Para isso, vamos agrupar os clientes de acordo com seu comportamento de navegação entre páginas administrativas, informativas e de produtos. 
-    As variáveis que usaremos são a quantidade e o tempo de acesso por tipo de página, bem como informações de temporalidade, como a época do ano. 
-    Em resumo, vamos analisar como o comportamento de navegação dos clientes está relacionado à propensão de compra e como isso pode ser influenciado pelo design da página.
+Neste projeto, vamos analisar uma base de dados chamada "Online Shoppers Purchase Intention" de Sakar et al. 
+
+Essa base contém informações sobre 12.330 sessões de acesso a páginas de um site, cada sessão de um usuário diferente em um período de 12 meses. O objetivo é entender se o design da página afeta a propensão de compra do cliente, dependendo de como ele navega pelo site. 
+
+Para isso, vamos agrupar os clientes de acordo com seu comportamento de navegação entre páginas administrativas, informativas e de produtos. 
+
+As variáveis que usaremos são a quantidade e o tempo de acesso por tipo de página, bem como informações de temporalidade, como a época do ano. 
+
+Em resumo, vamos analisar como o comportamento de navegação dos clientes está relacionado à propensão de compra e como isso pode ser influenciado pelo design da página.
   
  -------------------------------------------
     
