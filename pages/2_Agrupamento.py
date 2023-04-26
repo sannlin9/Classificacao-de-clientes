@@ -16,8 +16,6 @@ warnings.filterwarnings('ignore')
 custom_params = {"axes.spines.right": False, "axes.spines.top": False}
 sns.set_palette(sns.color_palette("pastel"))
 
-st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
-
 st.set_page_config (layout= 'wide', 
                     page_title ='Classicação de clientes',
                     initial_sidebar_state="expanded",
@@ -26,6 +24,8 @@ st.set_page_config (layout= 'wide',
          'Report a bug': "https://github.com/sannlin9/Streamlit-app/issues",
         'About': "# Este aplicativo foi criado como projeto por Sandra Lin Costa!"},
                     page_icon= '👋')
+
+st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
 
 #Titulo da pagina
 
