@@ -49,14 +49,15 @@ def plot_data(tipo, x, y, hue, xlabel, ylabel):
         sns.scatterplot(data=df, x=x, y=y, hue=hue, alpha=0.7)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
+        st.pyplot(fig=plt)
     elif tipo == 'countplot':
         ax = sns.countplot(data=df, x=x, hue=hue)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
+        st.pyplot(fig=plt)
     else:
         raise ValueError('Tipo de gráfico inválido. Use "scatterplot" ou "countplot".')
-    plt.show()
-
+    
 # Plot
 '''
 Proporção de visitantes que efetivam compra.
