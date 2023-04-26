@@ -5,3 +5,4 @@ numpy
 scikit-learn
 scipy
 gower
+protobuf==3.20.3

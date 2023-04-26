@@ -124,4 +124,4 @@ plot_data('countplot', 'Month', None, 'grupo', 'Mês', 'Frequência')
 '''
 plot_data('countplot', 'Revenue', None, 'grupo', 'Porporção de compra por acesso', 'Frequência')
 
-'''
+
