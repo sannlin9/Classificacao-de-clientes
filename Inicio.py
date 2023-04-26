@@ -27,16 +27,19 @@ st.title('Classificação de clientes.')
 
 
 '''
-Neste projeto, vamos analisar uma base de dados chamada "Online Shoppers Purchase Intention" de Sakar et al. 
+*Este é um projeto idealizado durante o curso de ciencia de dados | EBAC.*
 
-Essa base contém informações sobre 12.330 sessões de acesso a páginas de um site, cada sessão de um usuário diferente em um período de 12 meses. O objetivo é entender se o design da página afeta a propensão de compra do cliente, dependendo de como ele navega pelo site. 
+Neste projeto vamos usar a base [online shoppers purchase intention](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset) de Sakar, C.O., Polat, S.O., Katircioglu, M. et al. Neural Comput & Applic (2018). [Web Link](https://doi.org/10.1007/s00521-018-3523-0).
 
-Para isso, vamos agrupar os clientes de acordo com seu comportamento de navegação entre páginas administrativas, informativas e de produtos. 
+A base trata de registros de 12.330 sessões de acesso a páginas, cada sessão sendo de um único usuário em um período de 12 meses, para posteriormente estudarmos a relação entre o design da página e o perfil do cliente - "Será que clientes com comportamento de navegação diferentes possuem propensão a compra diferente?" 
 
-As variáveis que usaremos são a quantidade e o tempo de acesso por tipo de página, bem como informações de temporalidade, como a época do ano. 
+Nosso objetivo é tentar agrupar os clientes conforme seu comportamento de navegação entre páginas administrativas, informativas e de produtos. 
 
-Em resumo, vamos analisar como o comportamento de navegação dos clientes está relacionado à propensão de compra e como isso pode ser influenciado pelo design da página.
-  
+As variáveis estão descritas abaixo (em tradução livre do link indicado).
+
+Por este motivo, o escopo desta análise estará fechado as variáveis referentes a quantidade e tempo de acesso por tipo de página, atributos que falam mais do comportamento de navegação do cliente e de temporalidade como época do ano (informações da data, como a proximidade a uma data especial, fim de semana e o mês).
+
+## As variáveis do dataset são descritas abaixo:
  -------------------------------------------
     
 |Variavel                |Descrição          | 
