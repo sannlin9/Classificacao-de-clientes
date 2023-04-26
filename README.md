@@ -1,5 +1,5 @@
 # Clusters - Classificação de clientes de e-commerce.
-
+<img alt="Website" src="https://img.shields.io/website?style=for-the-badge&up_message=UP&url=https%3A%2F%2Fsannlin9-classificacao-de-clientes-inicio-q2eaeg.streamlit.app%2F">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sannlin9/Classificacao-de-clientes?style=for-the-badge">
 
 
@@ -43,8 +43,7 @@ Por este motivo, o escopo desta análise estará fechado as variáveis referente
 
 ## Aplicativo web - Streamlit.
 
-////
-///
+Você pode conferir o aplicativo [aqui](https://sannlin9-classificacao-de-clientes-inicio-q2eaeg.streamlit.app/).
 
 ## Desenvolvimento do projeto.
 
@@ -52,7 +51,7 @@ Toda a documentação do desenvolvimento deste projeto esta disponibilizada em [
 
 ## Ajuda
 
-É possível que você encontre lentidão na aplicação e durante o processamento dos dados, este aplicativo utiliza o Free Web Services da plataforma render e por esta razão há limitações quanto a banda utilizada. 
+É possível que você encontre lentidão na aplicação principalmente durante a geração do agrupamento, por se tratar de um algoritmo de cluster para diversos tipos de variaveis(númericas e categoricagas) o algoritmo demora certa de 10 segundos para processar todas as informações. 
 
 ## Autores
 
