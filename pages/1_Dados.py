@@ -60,25 +60,19 @@ def plot_data(tipo, x, y, hue, xlabel, ylabel):
     
 # Plot
 '''
-Proporção de visitantes que efetivam compra.
+# Proporção de visitantes que efetivam compra.
 '''
 plot_data('countplot', 'Revenue', None, None, 'Efetivação da compra por visita', 'Frequência')
 
 '''
 # Mes que ocorreu a visita.
 '''
-sns.countplot(data=df, x='Month', hue='Revenue')
-plt.xlabel('Mes da visita')
-plt.ylabel('Frequencia')
-st.pyplot(fig=plt)
+plot_data('countplot', 'Month', None, 'Revenue', 'Mes da visita', 'Frequencia')
 
 '''
 # Visitas em paginas administrativas.
 '''
-sns.scatterplot(data=df, x='Administrative', y='Administrative_Duration', hue='Revenue', alpha=0.7)
-plt.xlabel('Quantidade de paginas administrativas visitadas')
-plt.ylabel('Duração das visitas')
-st.pyplot(fig=plt)
+plot_data('scatterplot','Administrative', 'Administrative_Duration', 'Revenue', 'Quantidade de paginas administrativas visitadas', 'Duração das visitas')
 
 '''
 # Visitas em paginas informativas.
