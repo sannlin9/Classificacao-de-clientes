@@ -66,7 +66,6 @@ if st.checkbox('Mostrar dados'):
     
 st.markdown('# Analise exploratória')
 
-    
 # Plots
 '''
 # Proporção de visitantes que efetivam compra.
