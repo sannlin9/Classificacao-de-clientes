@@ -31,17 +31,20 @@ st.set_page_config (layout= 'wide',
 '''
 # Nomeando os grupos.
 
-### Grupo 1 --> Generosos
+### Grupo 1 👉 Generosos
 
 - O grupo dos Generosos procuram o site de e-commerce durante o mês de Maio, durante este mês acontecem duas datas comemorativas importantes, o Dia das Mães e Dia dos Pais nos estados unidos.
+st.image('https://png.pngtree.com/png-clipart/20221023/original/pngtree-two-men-giving-presents-each-other-png-image_8714932.png')
 
-### Grupo 2 --> Cliente fiel
+### Grupo 2 👉 Cliente fiel
 
 - O grupo dos Fiéis sempre compra no nosso e-commerce durante todo o ano.
+st.image('https://hotsite-cdn.s3.amazonaws.com/wp-content/uploads/2017/08/06124709/Motivos-fideliza%C3%A7%C3%A3o-de-clientes.jpg')
 
-### Grupo 3 --> Caçadores de descontos
+### Grupo 3 👉 Caçadores de descontos
 
 - Os caçadores adoram promoções especialmente durante a black friday e cyber monday durante o mês de novembro.
+st.image('https://static.vecteezy.com/ti/vetor-gratis/p1/1372982-desconto-cacador-on-cyber-segunda-feira-venda-ilustracao-vetor.jpg')
 
 # Estratégias aplicadas aos grupos.
 
