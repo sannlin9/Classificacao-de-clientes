@@ -27,21 +27,6 @@ def load_data(url):
     df = pd.read_csv(url)
     return df
 
-df= load_data(r'https://raw.githubusercontent.com/sannlin9/Classificacao-de-clientes/main/input/online_shoppers_intention.csv?token=GHSAT0AAAAAACABPH7VN5ZKXV6L73BBGQDKZCIHRAA')
-
-#Titulo da pagina
-
-st.title('Entendo os dados.')
-
-#checkbox para mostrar os dados
-st.markdown("Gostaria de visualizar os dados? clique em mostrar dados.")
-
-if st.checkbox('Mostrar dados'):
-    st.subheader('Amostra do dataframe.')
-    st.write(df.head(20))
-    
-st.markdown('# Analise exploratória')
-
 # Função gráficos
 def plot_data(tipo, x, y, hue, xlabel, ylabel):
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -57,8 +42,32 @@ def plot_data(tipo, x, y, hue, xlabel, ylabel):
         st.pyplot(fig=plt)
     else:
         raise ValueError('Tipo de gráfico inválido. Use "scatterplot" ou "countplot".')
+
+df= load_data(r'https://raw.githubusercontent.com/sannlin9/Classificacao-de-clientes/main/input/online_shoppers_intention.csv?token=GHSAT0AAAAAACABPH7VN5ZKXV6L73BBGQDKZCIHRAA')
+
+#Titulo da pagina
+
+st.title('Entendendo os dados.')
+
+''' 
+Classificar clientes em clusters significa agrupá-los em grupos com características e comportamentos semelhantes. Isso é importante porque permite que as empresas criem estratégias de marketing e vendas mais direcionadas e personalizadas, o que pode ajudar a aumentar as vendas e a fidelidade do cliente.
+
+Por exemplo, ao agrupar os clientes com base em suas compras anteriores, as empresas podem enviar ofertas personalizadas para cada grupo, oferecer descontos para clientes que compram com frequência ou para aqueles que estão inativos há muito tempo, e até mesmo prever a demanda futura para ajustar seus estoques e produção.
+
+Essas estratégias ajudam as empresas a entender melhor seus clientes, o que pode levar a melhores resultados de negócios e a uma experiência mais satisfatória para o cliente.
+'''
+
+#checkbox para mostrar os dados
+st.markdown("Gostaria de visualizar os dados? clique em mostrar dados.")
+
+if st.checkbox('Mostrar dados'):
+    st.subheader('Base de dados completa.')
+    st.write(df)
     
-# Plot
+st.markdown('# Analise exploratória')
+
+    
+# Plots
 '''
 # Proporção de visitantes que efetivam compra.
 '''
