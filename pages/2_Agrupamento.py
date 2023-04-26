@@ -36,6 +36,22 @@ def load_data(url):
     df = pd.read_csv(url)
     return df
 
+# Função gráficos
+def plot_data(tipo, x, y, hue, xlabel, ylabel):
+    fig, ax = plt.subplots(figsize=(8, 6))
+    if tipo == 'scatterplot':
+        sns.scatterplot(data=df, x=x, y=y, hue=hue, alpha=0.7)
+        plt.xlabel(xlabel)
+        plt.ylabel(ylabel)
+        st.pyplot(fig=plt)
+    elif tipo == 'countplot':
+        ax = sns.countplot(data=df, x=x, hue=hue)
+        plt.xlabel(xlabel)
+        plt.ylabel(ylabel)
+        st.pyplot(fig=plt)
+    else:
+        raise ValueError('Tipo de gráfico inválido. Use "scatterplot" ou "countplot".')
+
 df= load_data(r'https://raw.githubusercontent.com/sannlin9/Classificacao-de-clientes/main/input/online_shoppers_intention.csv?token=GHSAT0AAAAAACABPH7VN5ZKXV6L73BBGQDKZCIHRAA')
 
 
@@ -75,36 +91,31 @@ st.write(df.groupby(['grupo', 'Revenue']).count().fillna(0))
 '''
 Como nossos grupos se comportam.
 '''
+
 '''
 # Acessos a paginas administrativas x duração do acesso.
 '''
-sns.scatterplot(data=df, x='Administrative', y='Administrative_Duration', hue='grupo',alpha=0.7, palette="pastel")
-st.pyplot(fig=plt)
+plot_data('scatterplot', 'Administrative', 'Administrative_Duration', 'grupo', 'Acessos a paginas administrativas', 'duração do acesso')
 
 '''
 # Acessos a paginas informativas x duração do acesso.
 '''
-sns.scatterplot(data=df, x='Informational', y='Informational_Duration', hue='grupo',alpha=0.7, palette="pastel")
-st.pyplot(fig=plt)
+plot_data('scatterplot', 'Informational', 'Informational_Duration', 'grupo', 'Acessos a paginas informativas', 'duração do acesso')
 
 '''
 # Acessos a paginas de produtos x duração do acesso.
 '''
-sns.scatterplot(data=df, x='ProductRelated', y='ProductRelated_Duration', hue='grupo', alpha=.7, palette="pastel")
-st.pyplot(fig=plt)
+plot_data('scatterplot', 'ProductRelated', 'ProductRelated_Duration', 'grupo', 'Acessos a paginas de produtos', 'duração do acesso')
 
 '''
 # Periodo do acesso.
 '''
-sns.countplot(data=df, x='Month', hue='grupo')
-st.pyplot(fig=plt)
+plot_data('countplot', 'Month', None, 'grupo', 'Mês', 'Frequência')
 
 '''
 # Quanto nossos grupos compram.
 '''
-sns.countplot(data=df, x='Revenue', hue='grupo')
-st.pyplot(fig=plt)
-
+plot_data('countplot', 'Revenue', None, 'grupo', 'Porporção de compra por acesso', 'Frequência')
 
 '''
 # Quanto nossos grupos compram.
