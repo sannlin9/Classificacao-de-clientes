@@ -64,7 +64,7 @@ def plot_data(tipo, x, y, hue, xlabel, ylabel):
 '''
 # Porporção de visitantes que efetivam compra.
 '''
-plot_data(countplot, 'Revenue', None, None, 'Efetivação da compra por visita', 'Frequencia')
+plot_data(countplot, 'Revenue', , , 'Efetivação da compra por visita', 'Frequencia')
 
 '''
 # Mes que ocorreu a visita.
