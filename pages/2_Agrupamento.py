@@ -125,7 +125,7 @@ plot_data('countplot', 'Month', None, 'grupo', 'Mês', 'Frequência')
 plot_data('countplot', 'Revenue', None, 'grupo', 'Porporção de compra por acesso', 'Frequência')
 
 '''
-# Quanto nossos grupos compram.
+# Quanto nossos grupos compram x BounceRate.
 '''
 plot_data('barplot', 'grupo', 'BounceRates', 'Revenue', 'BounceRate x Compra', 'BounceRate')
 
