@@ -43,7 +43,7 @@ st.set_page_config (layout= 'wide',
 
 •	Os caçadores adoram promoções especialmente durante a black friday e cyber monday durante o mês de novembro.
 
-#Estratégias aplicadas aos grupos.
+# Estratégias aplicadas aos grupos.
 
 ## Conclusões quanto ao perfil de consumo.
 
