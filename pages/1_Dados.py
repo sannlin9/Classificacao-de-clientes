@@ -76,29 +76,30 @@ plot_data('countplot', 'Revenue', None, None, 'Efetivação da compra por visita
 '''
 # Mes que ocorreu a visita.
 '''
-plot_data('countplot', 'Month', None, 'Revenue', 'Mes da visita', 'Frequencia')
+plot_data('countplot', 'Month', None, 'Revenue', 'Mes da visita', 'Frequência')
 
 '''
-# Visitas em paginas administrativas.
+# Visitas em páginas administrativas.
 '''
-plot_data('scatterplot','Administrative', 'Administrative_Duration', 'Revenue', 'Quantidade de paginas administrativas visitadas', 'Duração das visitas')
+plot_data('scatterplot','Administrative', 'Administrative_Duration', 'Revenue', 'Quantidade de páginas administrativas visitadas', 'Duração das visitas')
 
 '''
-# Visitas em paginas informativas.
+# Visitas em páginas informativas.
 '''
-plot_data('scatterplot', 'Informational', 'Informational_Duration', 'Revenue', 'Quantidade de paginas informativas visitadas', 'Duração das visitas')
+plot_data('scatterplot', 'Informational', 'Informational_Duration', 'Revenue', 'Quantidade de páginas informativas visitadas', 'Duração das visitas')
 
 '''
-# Visitas em paginas de produtos.
+# Visitas em páginas de produtos.
 '''
-plot_data('scatterplot', 'ProductRelated', 'ProductRelated_Duration', 'Revenue', 'Quantidade de paginas de produto visitadas', 'Duração das visitas')
+plot_data('scatterplot', 'ProductRelated', 'ProductRelated_Duration', 'Revenue', 'Quantidade de páginas de produto visitadas', 'Duração das visitas')
 
 '''
-# Porporção de visitas em finais de semana.
+# Proporção de visitas em finais de semana.
 '''
 plot_data('countplot', 'Weekend', None, 'Revenue', 'Fim de semana', 'Frequência')
 
 '''
-# Para agrupar estes clientes em clusters utilizaremos tecnicas de machine learning, a proxima pagina irá rodar o algoritimo responsavel pelo agrupamento para saber mais do mecanismo e acessar a documentação acesse:[repositorio](https://github.com/sannlin9/Classificacao-de-clientes)
+# Para agrupar estes clientes em clusters utilizaremos técnicas de machine learning, a próxima página irá rodar o algoritmo responsável pelo agrupamento para saber mais do mecanismo e acessar a documentação acesse:[repositorio](https://github.com/sannlin9/Classificacao-de-clientes)
+
 '''
 st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
