@@ -40,7 +40,7 @@ def load_data(url):
 def plot_data(tipo, x, y, hue, xlabel, ylabel):
     fig, ax = plt.subplots(figsize=(8, 6))
     if tipo == 'scatterplot':
-        sns.scatterplot(data=df, x=x, y=y, hue=hue, alpha=0.7)
+        sns.scatterplot(data=df, x=x, y=y, hue=hue, alpha=0.7, palette="pastel" )
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
         st.pyplot(fig=plt)
