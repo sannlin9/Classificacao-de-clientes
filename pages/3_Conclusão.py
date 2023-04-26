@@ -25,7 +25,7 @@ st.set_page_config (layout= 'wide',
         'About': "# Este aplicativo foi criado como projeto por Sandra Lin Costa!"},
                     page_icon= '👋')
 
-st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
+
 
 #Titulo da pagina
 '''
@@ -87,3 +87,4 @@ st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/site
 - *Descontos exclusivos:* ofereça descontos exclusivos para os produtos que os clientes caçadores já demonstraram interesse.
 - *Facilidade de navegação:* facilite a navegação do site e torne mais fácil para os clientes caçadores encontrar o que estão procurando.
 '''
+st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')

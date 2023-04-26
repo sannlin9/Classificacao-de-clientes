@@ -19,7 +19,6 @@ st.set_page_config (layout= 'wide',
         'About': "# Este aplicativo foi criado como projeto por Sandra Lin Costa!"},
                     page_icon= '👋')
 
-st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
 
 # Função para ler os dados
 
@@ -102,3 +101,4 @@ plot_data('countplot', 'Weekend', None, 'Revenue', 'Fim de semana', 'Frequência
 '''
 # Para agrupar estes clientes em clusters utilizaremos tecnicas de machine learning, a proxima pagina irá rodar o algoritimo responsavel pelo agrupamento para saber mais do mecanismo e acessar a documentação acesse:[repositorio](https://github.com/sannlin9/Classificacao-de-clientes)
 '''
+st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')

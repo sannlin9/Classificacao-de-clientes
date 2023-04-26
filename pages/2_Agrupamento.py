@@ -25,7 +25,7 @@ st.set_page_config (layout= 'wide',
         'About': "# Este aplicativo foi criado como projeto por Sandra Lin Costa!"},
                     page_icon= '👋')
 
-st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
+
 
 #Titulo da pagina
 
@@ -129,5 +129,5 @@ plot_data('countplot', 'Revenue', None, 'grupo', 'Porporção de compra por aces
 '''
 plot_data('barplot', 'grupo', 'BounceRates', 'Revenue', 'BounceRate x Compra', 'BounceRate')
 
-
+st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
 
