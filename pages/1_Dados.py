@@ -97,3 +97,7 @@ plot_data('scatterplot', 'ProductRelated', 'ProductRelated_Duration', 'Revenue',
 # Porporção de visitas em finais de semana.
 '''
 plot_data('countplot', 'Weekend', None, 'Revenue', 'Fim de semana', 'Frequência')
+
+'''
+Para agrupar estes clientes em clusters utilizaremos tecnicas de machine learning, a proxima pagina irá rodar o algoritimo responsavel pelo agrupamento para saber mais do mecanismo e acessar a documentação acesse:[repositorio](https://github.com/sannlin9/Classificacao-de-clientes)
+'''
