@@ -12,8 +12,6 @@ warnings.filterwarnings('ignore')
 custom_params = {"axes.spines.right": False, "axes.spines.top": False}
 sns.set_palette(sns.color_palette("pastel"))
 
-st.sidebar.success("Selecione uma pagina para navegar.")
-
 st.set_page_config (layout= 'wide', 
                     page_title ='Classicação de clientes',
                     initial_sidebar_state="expanded",
