@@ -124,4 +124,10 @@ plot_data('countplot', 'Month', None, 'grupo', 'Mês', 'Frequência')
 '''
 plot_data('countplot', 'Revenue', None, 'grupo', 'Porporção de compra por acesso', 'Frequência')
 
+'''
+# Quanto nossos grupos compram.
+'''
+plot_data('barplot', 'grupo', 'BounceRates', 'Revenue', 'BounceRate x Compra', 'BounceRate')
+
+st.sidebar.image('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2021/01/O-Que-e-e-commerce-Todos-os-Detalhes-Como-Comecar-o-seu.webp')
 
