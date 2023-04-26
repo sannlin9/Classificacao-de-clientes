@@ -42,29 +42,26 @@ if st.checkbox('Mostrar dados'):
     
 st.markdown('# Analise exploratória')
 
-##função gráficos
+# Função gráficos
 def plot_data(tipo, x, y, hue, xlabel, ylabel):
     fig, ax = plt.subplots(figsize=(8, 6))
     if tipo == 'scatterplot':
-        sns.scatterplot(data=df, x='ProductRelated', y='ProductRelated_Duration', hue='Revenue',alpha=0.7)
-        plt.xlabel('Quantidade de paginas de produto visitadas')
-        plt.ylabel('Duração das visitas')
-        st.pyplot(fig=plt)
+        sns.scatterplot(data=df, x=x, y=y, hue=hue, alpha=0.7)
+        plt.xlabel(xlabel)
+        plt.ylabel(ylabel)
     elif tipo == 'countplot':
         ax = sns.countplot(data=df, x=x, hue=hue)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
-        st.pyplot(fig=plt)
     else:
-        raise
+        raise ValueError('Tipo de gráfico inválido. Use "scatterplot" ou "countplot".')
+    plt.show()
 
-#Plots
-#plots
-
+# Plot
 '''
-# Porporção de visitantes que efetivam compra.
+Proporção de visitantes que efetivam compra.
 '''
-plot_data(countplot, 'Revenue', , , 'Efetivação da compra por visita', 'Frequencia')
+plot_data('countplot', 'Revenue', None, None, 'Efetivação da compra por visita', 'Frequência')
 
 '''
 # Mes que ocorreu a visita.
