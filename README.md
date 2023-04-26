@@ -60,7 +60,7 @@ Sandra Lin Costa [@SandraLin](https://www.linkedin.com/in/sandra-lin-costa/)
 ## Histórico de versões.
 
 * 0.3
-  * Deploy no render e modificações no readme.
+  * Modificações no readme e inclusão de icones de páginas.
 * 0.2
 	* Deploy no streamlit community cloud.
 * 0.1
