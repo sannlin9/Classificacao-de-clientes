@@ -1,5 +1,4 @@
 # Clusters - Classificação de clientes de e-commerce.
-<img alt="Website" src="https://img.shields.io/website?style=for-the-badge&up_message=UP&url=https%3A%2F%2Fsannlin9-classificacao-de-clientes-inicio-q2eaeg.streamlit.app%2F">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sannlin9/Classificacao-de-clientes?style=for-the-badge">
 
 
